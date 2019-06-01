@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="utf8"/>
+    <title>LocalForage Example Pen</title>
+    <style>
+        .logList {
+            margin-top: 20px;
+            width: 250px;
+            min-height: 200px;
+            padding: 5px 15px;
+            border: 5px solid #000;
+            border-radius: 15px;
+            margin: 10px 0 30px;
+            list-style: none outside none;
+        }
+
+        .logList:before {
+            content: 'log';
+            padding: 0 5px;
+            position: relative;
+            top: -1.1em;
+            background-color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>LocalForage Example Pen</h1>
+    <ul id="htmlConsole" class="logList">
+    </ul>
+    <script src="js/localforage.min.js"></script>
+    <script src="js/localforageExemple.js"></script>
+</body>
+</html>
